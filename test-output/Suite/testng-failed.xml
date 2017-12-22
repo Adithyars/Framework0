@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hrm.scripts.Login">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="noAutoLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.Login -->
+      <class name="com.hrm.scripts.TestSearchButton">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestSearchButton -->
+      <class name="com.hrm.scripts.TestJobTitle">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestJobTitle -->
+      <class name="com.hrm.scripts.TestLeaveListToolTip">
+        <methods>
+          <include name="initFrameWork"/>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="initGlobalVar"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestLeaveListToolTip -->
+      <class name="com.hrm.scripts.LoginLogoutTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.LoginLogoutTest -->
+      <class name="com.hrm.scripts.TestLoginButtonIsPresent">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="noAutoLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestLoginButtonIsPresent -->
+      <class name="com.hrm.scripts.TestCreateDeleteEmp">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestCreateDeleteEmp -->
+      <class name="com.hrm.scripts.TestUserRoleListBox">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestUserRoleListBox -->
+      <class name="com.hrm.scripts.TestIncludeListBox">
+        <methods>
+          <include name="testIncludeListBox"/>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestIncludeListBox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
